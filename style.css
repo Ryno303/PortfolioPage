@@ -3,4 +3,39 @@
     margin: 0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: none;
+}
+
+header{
+    display: inline-flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkred;
+    color:lightgray;
+}
+
+h1{
+    padding-left: 1rem;
+}
+
+nav{
+    display: inline-flex;
+    color:lightgrey;
+}
+
+nav ul{
+    display: inline-flex;
+    list-style: "";
+        
+}
+
+nav li {
+    margin: 1rem;
+    
+}
+
+nav a{
+    color:lightgrey;
 }
