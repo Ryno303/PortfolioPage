@@ -3,22 +3,49 @@
     margin: 0;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: none;
+   
 }
 
 header{
+    position: fixed;
+    z-index: 2;
     display: inline-flex;
     height: 60px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: darkred;
+    background-color: #6a0f49;
     color:lightgray;
 }
+
+
 
 h1{
     padding-left: 1rem;
 }
+
+h2 {
+    background-color: #069e2d;
+    padding: 0.5rem;
+}
+
+p {
+    margin: 0.5rem;
+    line-height: 1.2;
+}
+
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 5,
+  'wght' 600,
+  'GRAD' 5,
+  'opsz' 48
+}
+
+
 
 nav{
     display: inline-flex;
@@ -38,4 +65,200 @@ nav li {
 
 nav a{
     color:lightgrey;
+}
+
+main {
+    position: relative;
+    top: 60px;
+    display: flex;
+    width: 100%;
+    background-color: #534d41;
+    color:beige;
+    padding: 1rem 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+#rightSide {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 300px;
+
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+#aboutMeTitle {
+    display: flex;
+    overflow: hidden;
+    position: static;
+}
+
+#aboutMe {
+    min-width: 200px;
+    max-width: 600px;
+    max-height: 700px;
+    overflow-y: scroll;
+    border: solid 1px white;
+  
+    
+}
+
+#aboutMe h2{
+    
+    min-width: 200px;
+    
+    flex-grow: 1;
+}
+
+
+
+#projects {
+    align-items: end;
+    min-width: fit-content;
+    max-width: 600px;
+    max-height: 450px;
+    
+    border: solid 1px white;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 47, 127);
+    height: 300px;
+    padding: 1rem;
+    border: solid 3px white;
+    text-align: center;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.projectText {
+    max-width: 350px;
+    height: 125px;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.projectNav {
+    display: flex;
+    background-color: #000000dd;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#projects p {
+    font-size: 1rem;
+}
+
+#last1,
+#last2,
+#last3,
+#next1,
+#next2,
+#next3 {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    margin: 1rem;
+    
+    
+    align-items: center;
+    justify-content: space-around;
+    
+    border: 0.1rem solid white ;
+}
+
+
+
+#styleGuide {
+    display: flex;
+    background-image: url("./resources/images/StyleGuide.png");
+    background-size: cover;
+}
+
+#spaceMission {
+    display: none;
+    background-image: url("./resources/images/SpaceMission.png");
+    background-size: cover;
+}
+
+#ticTacToe {
+    display: none;
+    background-image: url("./resources/images/TicTacToe.png");
+    background-size: cover;
+}
+
+#skills {
+    margin-top: 3rem;
+    min-width: 200px;
+    max-width: 600px;
+    max-height: 250px;
+    
+    border: solid 1px white;
+    
+}
+
+#skills ul {
+    padding: 1rem;
+    list-style: none;
+}
+
+footer {
+    position: relative;
+    top: 60px;
+}
+
+@media only screen and (max-width: 800px)  {
+    main {
+        display: block;
+        align-items: center;
+        justify-items: center;
+        
+
+
+    }
+    h1 {
+        font-size: 1.2rem;
+    }
+    #aboutMe {
+        display: inline;
+        align-items: center;
+        justify-content: center;
+        min-width: none;
+        max-width: 500px;
+        text-wrap: wrap;
+        text-align: center;
+        border: none;
+    
+        
+    }
+
+    #rightSide {
+       display: inline;
+       justify-content: center;
+       padding: 2rem;
+    }
+    
+    #projects {
+        display: inline;
+        padding: 2rem;
+        margin: 2rem;
+        text-align: center;
+        border: none;
+    }
+
+    #skills {
+        display: inline;
+        text-align: center;
+        border: none;
+    }
 }

@@ -3,6 +3,7 @@
     <head>
         <title>Ryan's Portfolio Page</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     </head>
     <body>
@@ -21,7 +22,7 @@
         <main>
             
             <div id="aboutMe" name="aboutMe">
-                <h2>About Me</h2>
+                <div id="aboutMeTitle" name="aboutMeTitle"><h2>About Me</h2></div>
                 <br>
                 <p>Hello, I'm Ryan. My goal is to get into the video game development industry. Ever since I was a kid, video games have always been a great way to relax and unwind, or explore a different world. I would love to help create games to help bring that joy to others.
                     <br>
@@ -37,15 +38,40 @@
             </p>
 
             </div>
+            <div id="rightSide" name="rightSide">
             <div id="projects" name="projects">
                 <h2>Projects</h2>
-                <ul>
-                    <li>My basic website cheat sheet</li>
-                    <li>Space Mission: My first JavaScript project.</li>
-                    <li>Tic Tac Toe in C++</li>
-                </ul>
-
-            </div>
+                <br>
+                    <div id="styleGuide" name="styleGuide" class="project">
+                        <div class="projectNav">
+                        <div id="last1" name="last1" class="material-symbols-outlined">
+                        arrow_back
+                    </div>
+                        <div class="projectText"><h3>My basic website cheat sheet</h3><br><p>This stylesheet includes some HTML and CSS basics for setting up a website quickly. Check it out on GitHub for more!</p></div>
+                        <div id="next1" name="next1" class="material-symbols-outlined">
+                            arrow_forward
+                        </div>
+                    </div>
+                            </div>
+                    <div id="spaceMission" name="spaceMission" class="project">
+                        <div class="projectNav">
+                        
+                        <div id="last2" name="last2" class="material-symbols-outlined">
+                        arrow_back
+                    </div><div class="projectText"><h3>Space Mission: My first JavaScript project.</h3><br>
+                    <p>This is my first JavaScript portfolio project. It randomly assigns a space mission and a few other details.</p> </div><div id="next2" name="next2" class="material-symbols-outlined">
+                        arrow_forward
+                    </div></div></div>
+                    <div id="ticTacToe" name="ticTacToe" class="project">
+                        <div class="projectNav">
+                        <div id="last3" name="last3" class="material-symbols-outlined">
+                        arrow_back
+                    </div><div class="projectText"><h3>Tic Tac Toe in C++</h3><br>
+                    <p>This is one of my first projects in C++. It takes user input for the names of 2 players, and once someone wins the game it prompts them to play again if they choose.</p></div><div id="next3" name="next3" class="material-symbols-outlined">
+                        arrow_forward
+                    </div></div></div>
+                </div>
+            
             <div id="skills" name="skills">
                 <h2>Skills</h2>
                 <br>
@@ -57,6 +83,9 @@
 
                 </ul>
             </div>
+        </div>
+            
+    
             
 
         </main>
@@ -64,6 +93,6 @@
             <h2>Copyright 2024 Ryan Lewis</h2>
 
         </footer>
-<script href="portfolio.js"></script>
+<script src="./portfolio.js"></script>
     </body>
 </html>
