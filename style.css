@@ -81,6 +81,10 @@ main {
     
 }
 
+main a {
+    color: beige;
+}
+
 #rightSide {
     display: inline-flex;
     flex-direction: column;
@@ -148,7 +152,7 @@ main {
 
 .projectNav {
     display: flex;
-    background-color: #000000dd;
+    background-color: #2e2661dd;
     align-items: center;
     justify-items: center;
     
