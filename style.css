@@ -101,6 +101,7 @@ main a {
 }
 
 #aboutMe {
+    
     min-width: 200px;
     max-width: 600px;
     max-height: 700px;
@@ -115,6 +116,13 @@ main a {
     min-width: 200px;
     
     flex-grow: 1;
+}
+
+#aboutMe img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin: 1rem;
 }
 
 
@@ -212,13 +220,75 @@ main a {
 }
 
 #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
     padding: 1rem;
     list-style: none;
+    
 }
+
+#skills li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
 
 footer {
     position: relative;
     top: 60px;
+    font-size: 0.5rem;
+}
+
+#contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+#contactInfo {
+    text-align: center;
+    
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+#contactInfo ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+conactInfo li {
+    
+   
+}
+.contactLink {
+    
+    padding: 1rem;
+
+}
+
+main a:hover{
+    color:#069e2d;
+}
+
+.devicon-cplusplus-plain,
+.devicon-html5-plain,
+.devicon-css3-plain,
+.devicon-javascript-plain,
+.devicon-linkedin-plain,
+.devicon-github-original,
+.devicon-git-plain,
+.devicon-github-plain {
+    font-size: 3rem;
 }
 
 @media only screen and (max-width: 800px)  {
