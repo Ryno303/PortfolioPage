@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    
    
 }
 
@@ -14,8 +14,8 @@ header{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color: #6a0f49;
-    color:lightgray;
+    background-color: #6D435A;
+    color: #fffcf9;
 }
 
 
@@ -34,6 +34,87 @@ p {
     line-height: 1.2;
 }
 
+h1 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+
+
+  h2 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #6D435A;
+  }
+
+  h3,
+  nav {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h4 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h5 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h6 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+  
+  
+  
+  em {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+p a {
+    font-family: "Salsa", cursive;
+
+    color: blue;
+    text-decoration: underline;
+}
 
 
 
@@ -64,7 +145,7 @@ nav li {
 }
 
 nav a{
-    color:lightgrey;
+    color: #fffcf9;
 }
 
 main {
@@ -83,6 +164,12 @@ main {
 
 main a {
     color: beige;
+}
+
+main a:hover{
+    color:#b1ede8;
+    text-decoration: underline;
+    
 }
 
 #rightSide {
@@ -105,7 +192,7 @@ main a {
     min-width: 200px;
     max-width: 600px;
     max-height: 700px;
-    overflow-y: scroll;
+   
     border: solid 1px white;
   
     
@@ -116,6 +203,10 @@ main a {
     min-width: 200px;
     
     flex-grow: 1;
+}
+
+#aboutMe h3 {
+    padding: 0 1rem;
 }
 
 #aboutMe img {
@@ -153,7 +244,7 @@ main a {
 
 .projectText {
     max-width: 350px;
-    height: 125px;
+    height: fit-content;
     align-items: center;
     margin: 1rem 0;
 }
@@ -242,7 +333,11 @@ main a {
 footer {
     position: relative;
     top: 60px;
-    font-size: 0.5rem;
+    font-size: 0.25rem;
+}
+
+footer h2 {
+    font-size: 1rem;
 }
 
 #contactPage {
@@ -266,19 +361,14 @@ footer {
     justify-content: space-evenly;
 }
 
-conactInfo li {
-    
-   
-}
+
 .contactLink {
     
     padding: 1rem;
 
 }
 
-main a:hover{
-    color:#069e2d;
-}
+
 
 .devicon-cplusplus-plain,
 .devicon-html5-plain,
@@ -287,9 +377,13 @@ main a:hover{
 .devicon-linkedin-plain,
 .devicon-github-original,
 .devicon-git-plain,
-.devicon-github-plain {
+.devicon-github-plain,
+.devicon-mocha-plain
+ {
     font-size: 3rem;
 }
+
+
 
 @media only screen and (max-width: 800px)  {
     main {
@@ -314,6 +408,11 @@ main a:hover{
         border: none;
     
         
+    }
+
+    #aboutMe p {
+        text-align: left;
+
     }
 
     #rightSide {

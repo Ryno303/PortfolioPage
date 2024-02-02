@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fffcf9;
+    text-decoration: none;
+}
+
+body {
+    background-color: #3A405a;
+}
+
+header{
+    position: fixed;
+    z-index: 2;
+    display: inline-flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6D435A;
+    color:#fffcf9;
+}
+
+main {
+    position: relative;
+    top: 60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    padding: 0 1rem;
+}
+
+h1 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    text-transform: uppercase;
+  }
+
+
+  h2 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    background-color: #6D435A;
+  }
+
+  h3,
+  nav {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h4 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h5 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h6 {
+    font-family: "Kanit", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  p {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+
+  
+  
+  
+  em {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+
+p a {
+    font-family: "Salsa", cursive;
+
+    color: blue;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.color {
+    background-color: #fffcf9;
+    padding: 10px;
+    display: inline-flex; 
+    align-content: space-evenly;
+    text-align: center;
+}
+
+.color li {
+    align-content: space-between;
+    font-family: "Kanit", sans serif;
+    font-weight: 600;
+    padding: 25px;
+    margin: 10px;
+    line-height: 50px;
+    border: 0.25rem solid black;
+    
+
+}
+
+#color1 {
+    background-color: #3A405a;
+}
+
+#color2 {
+    background-color: #FF6978;
+}
+
+#color3 {
+    background-color: #6D435A;
+}
+
+#color4 {
+    background-color: #fffcf9;
+    color: black;
+}
+
+#color5 {
+    background-color: #b1ede8;
+    color: black;
+}
+
+#heading_p1 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#heading_p2 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#heading_p3 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#heading_p4 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+#heading_p5 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#heading_p6 {
+    
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#paragraph_p {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#heading_b1 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#heading_b2 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#heading_b3 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#heading_b4 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+#heading_b5 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#heading_b6 {
+    
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#paragraph_b {
+    font-family: cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#headline {
+    background-color: #534D41;
+    color: white;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+}
+
+#color_sample{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#buttons li {
+    display: inline;
+}
+
+.btn {
+    padding: 20px;
+    margin: 30px;
+    line-height: 5;
+    border: solid 1px white;
+    background-color: #069E2D;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #01ee3d;
+}
+
+.btn:active {
+    background-color: #FFD131;
+}
+
+#default {
+    padding: 20px;
+    margin: 30px;
+    line-height: 5;
+    border: solid 1px white;
+    background-color: #069E2D;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#hover {
+    padding: 20px;
+    margin: 30px;
+    line-height: 5;
+    border: solid 1px white;
+    background-color: #01ee3d;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+#active {
+    padding: 20px;
+    margin: 30px;
+    line-height: 5;
+    border: solid 1px white;
+    background-color: #FFD131;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3;
+    text-decoration: none;
+    border-radius: 30px;
+}
+footer {
+    position: relative;
+    top: 60px;
+    font-size: 0.25rem;
+}
+footer h2 {
+    font-size: 1rem;
+}
