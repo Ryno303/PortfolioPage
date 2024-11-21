@@ -1,13 +1,16 @@
 let nextOne = document.getElementById('next1');
 let nextTwo = document.getElementById('next2');
 let nextThree = document.getElementById('next3');
+let nextFour = document.getElementById('next4');
 let lastOne = document.getElementById('last1');
 let lastTwo = document.getElementById('last2');
 let lastThree = document.getElementById('last3');
+let lastFour = document.getElementById('last4');
 
 let styleGuide = document.getElementById('styleGuide');
 let spaceMission = document.getElementById('spaceMission');
 let ticTacToe = document.getElementById('ticTacToe');
+let VitaFruit = document.getElementById('VitaFruit');
 
 
 const showSpaceMission = function() {
@@ -15,6 +18,7 @@ const showSpaceMission = function() {
     styleGuide.style.display = 'none';
     ticTacToe.style.display = 'none';
     spaceMission.style.display = 'flex';
+    VitaFruit.style.display = 'none';
 }
 
 nextOne.addEventListener('click', showSpaceMission);
@@ -24,20 +28,34 @@ const showTicTacToe = function() {
     styleGuide.style.display = 'none';
     spaceMission.style.display = 'none';
     ticTacToe.style.display = 'flex';
+    VitaFruit.style.display = 'none';
 }
 
 nextTwo.addEventListener('click', showTicTacToe);
-lastOne.addEventListener('click', showTicTacToe);
+lastFour.addEventListener('click', showTicTacToe);
 
 const showStyleGuide = function() {
 
     ticTacToe.style.display = 'none';
     spaceMission.style.display = 'none';
     styleGuide.style.display = 'flex';
+    VitaFruit.style.display = 'none';
 }
 
-nextThree.addEventListener('click', showStyleGuide);
+nextFour.addEventListener('click', showStyleGuide);
 lastTwo.addEventListener('click', showStyleGuide);
+
+const showVitaFruit = function() {
+
+    ticTacToe.style.display = 'none';
+    spaceMission.style.display = 'none';
+    styleGuide.style.display = 'none';
+    VitaFruit.style.display = 'flex';
+    
+}
+
+nextThree.addEventListener('click', showVitaFruit);
+lastOne.addEventListener('click', showVitaFruit);
 
 const buttonHover1 = function () {
     nextOne.style.backgroundColor = 'white';

@@ -264,9 +264,11 @@ main a:hover{
 #last1,
 #last2,
 #last3,
+#last4,
 #next1,
 #next2,
-#next3 {
+#next3,
+#next4 {
     display: flex;
     height: 40px;
     width: 40px;
@@ -297,6 +299,12 @@ main a:hover{
 #ticTacToe {
     display: none;
     background-image: url("./resources/images/TicTacToe.png");
+    background-size: cover;
+}
+
+#VitaFruit {
+    display: none;
+    background-image: url("./resources/images/Vitafruit_billboard.png");
     background-size: cover;
 }
 
